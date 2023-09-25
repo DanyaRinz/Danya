@@ -5,12 +5,7 @@ int main(int argc, char **argv)
 {
     char first[255], last[255];
 
-<<<<<<< HEAD
-    printf("Enter your namee: ");
-    fgets(name, 255, stdin);
-    first[strlen(first)-1] = '\0'; /* remove the newline at the end */
-
-    printf("Now enter your last name: ");
+<<<22212121
     gets(last); /* buffer overflow? what's that? */
 
     printf("Hello %s %s!\n", first, last);
